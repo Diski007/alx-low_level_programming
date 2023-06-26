@@ -18,7 +18,7 @@ void puts2(char *str)
 		lon++;
 	}
 	v = lon - 1;
-	for (x = 0 ; x <= t ; x++)
+	for (x = 0 ; x <= v ; x++)
 	{
 		if (x % 2 == 0)
 	{
