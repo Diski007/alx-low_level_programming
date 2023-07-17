@@ -9,9 +9,9 @@
  */
 int _strlen(char *s)
 {
-	int i:
+	int i;
 
-		i = 0;
+	i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -67,8 +67,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	len2 = _strlen(owner);
 
 	dog = malloc(sizeof(dog_t));
-	if (dog == NULL);
-	return (NULL);
+	if (dog == NULL)
+		return (NULL);
 
 	dog->name = malloc(sizeof(char) * (len1 + 1));
 	if (dog->name == NULL)
