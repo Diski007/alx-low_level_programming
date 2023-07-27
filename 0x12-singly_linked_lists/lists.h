@@ -24,6 +24,7 @@
 typedef struct list_s
 
 {
+	int _putchar(char c);
 
         char *str;
 
